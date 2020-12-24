@@ -37,7 +37,7 @@ h2,
 h3,
 h4,
 h5 {
-    color: #ecb9b8;
+    color: hsl(1, 58%, 82%);
 }
 
 .loads {
@@ -55,11 +55,61 @@ h5 {
     padding: auto;
     margin-top: 5rem;
     /* background-color: #fff; */
-    margin-left: 10rem;
+    margin-left: 3rem;
+    display: flex;
 }
 
 .box1 {
-    width: 10rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     background-color: #ecb9b8;
+}
+
+.arrow1 {
+    width: 0px;
+    height: 0px;
+    border-color: transparent #855352;
+    border-style: solid;
+    border-width: 7px 7px 7px 0px;
+    /* margin-left: 5rem; */
+    position: relative;
+    top: 2.7rem;
+    left: 2.6rem;
+}
+
+.largebox1,
+.largebox2,
+.largebox3 {
+    width: 19.6rem;
+    height: 20rem;
+}
+
+.largebox1 {
+    background-color: #3e3c3d;
+}
+
+.largebox2 {
+    background-color: #353334;
+}
+
+.largebox3 {
+    background-color: #201e1f;
+}
+
+.box2 {
+    width: 6rem;
+    height: 6rem;
+    background-color: #ecb9b8;
+}
+
+.arrow2 {
+    width: 0px;
+    height: 0px;
+    border-color: transparent #855352;
+    border-style: solid;
+    border-width: 7px 0px 7px 7px;
+    /* margin-left: 5rem; */
+    position: relative;
+    top: 2.7rem;
+    left: 2.6rem;
 }
