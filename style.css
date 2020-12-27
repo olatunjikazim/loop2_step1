@@ -40,6 +40,13 @@ h5 {
     color: hsl(1, 58%, 82%);
 }
 
+h2,
+h3,
+h4,
+h5:hover {
+    cursor: pointer;
+}
+
 .loads {
     width: 40rem;
     height: 1rem;
@@ -88,6 +95,25 @@ h5 {
     background-color: #3e3c3d;
 }
 
+.start {
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #000000;
+    margin-top: 7rem;
+    margin-left: 2em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: .9em;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.start:hover {
+    cursor: pointer;
+}
+
 .largebox2 {
     background-color: #353334;
 }
@@ -112,4 +138,46 @@ h5 {
     position: relative;
     top: 2.7rem;
     left: 2.6rem;
+}
+
+.text1,
+.text2,
+.text3 {
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+
+.timer,
+.temp,
+.load {
+    font-size: 1.2em;
+    color: #ecb9b8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.minute1 {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+.cold {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-right: 1.4em;
+}
+
+.medium {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-left: 1.8em;
 }
